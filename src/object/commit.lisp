@@ -1,7 +1,4 @@
-(defpackage git
-  (:use :cl))
-
-(in-package :git)
+(in-package :cl-git)
 
 (defclass commit (object)
   ((kind
